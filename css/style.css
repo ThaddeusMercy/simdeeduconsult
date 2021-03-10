@@ -81,12 +81,12 @@ nav a:hover {
     height: 70px;
   }
   to {
-    height: 105%;
+    height: 90%;
   }
 }
 @keyframes navClosed {
   from {
-    height: 105%;
+    height: 90%;
   }
   to {
     height: 70px;

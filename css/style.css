@@ -751,12 +751,12 @@ a {
     margin-right: 10px !important;
   }
   .bg-footer {
-    height: 850px !important;
+    height: 800px !important;
     background-position: fixed;
   }
   .whatsapp-contact {
     position: fixed;
-    margin-top: 380px !important;
+    margin-top: 400px !important;
     margin-left: 80% !important;
     z-index: 6 !important;
     transition: 0.5s;

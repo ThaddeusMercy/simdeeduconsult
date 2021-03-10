@@ -81,12 +81,12 @@ nav a:hover {
     height: 70px;
   }
   to {
-    height: 55%;
+    height: 105%;
   }
 }
 @keyframes navClosed {
   from {
-    height: 55%;
+    height: 105%;
   }
   to {
     height: 70px;
@@ -102,7 +102,7 @@ nav a:hover {
   margin-top: -35px;
 }
 .mobile-nav-closed a:first-child {
-  margin-top: 30%;
+  margin-top: 40%;
 }
 .classes-extention a:first-child {
   margin-top: -10px;
@@ -751,12 +751,12 @@ a {
     margin-right: 10px !important;
   }
   .bg-footer {
-    height: 700px !important;
+    height: 850px !important;
     background-position: fixed;
   }
   .whatsapp-contact {
     position: fixed;
-    margin-top: 600px !important;
+    margin-top: 380px !important;
     margin-left: 80% !important;
     z-index: 6 !important;
     transition: 0.5s;
@@ -989,7 +989,7 @@ a {
   }
   .whatsapp-contact {
     position: fixed;
-    margin-top: 900px !important;
+    margin-top: 350px !important;
     margin-left: 80% !important;
     z-index: 6 !important;
     transition: 0.5s;
@@ -1240,7 +1240,7 @@ a {
 }
 .whatsapp-contact {
   position: fixed;
-  margin-top: 600px;
+  margin-top: 500px;
   margin-left: 90%;
   z-index: 6;
   transition: 0.5s;

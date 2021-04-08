@@ -14,6 +14,15 @@ body {
   overflow-x: hidden;
   font-family: prosperR, helvetica, arial, sans-serif;
 }
+.bg-pink {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  line-height: 1.5;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #efb2bd;
+}
 nav {
   width: 100%;
   height: 70px;
@@ -81,12 +90,12 @@ nav a:hover {
     height: 70px;
   }
   to {
-    height: 90%;
+    height: 80%;
   }
 }
 @keyframes navClosed {
   from {
-    height: 90%;
+    height: 80%;
   }
   to {
     height: 70px;
@@ -756,7 +765,7 @@ a {
   }
   .whatsapp-contact {
     position: fixed;
-    margin-top: 400px !important;
+    margin-top: 420px !important;
     margin-left: 80% !important;
     z-index: 6 !important;
     transition: 0.5s;
@@ -1161,11 +1170,11 @@ a {
 }
 @keyframes slide-side {
   from {
-    margin-right: 5%;
+    margin-left: 5%;
     opacity: 0;
   }
   to {
-    margin-right: 0;
+    margin-right: 3;
     opacity: 1;
   }
 }
@@ -1214,7 +1223,7 @@ a {
   left: 0;
   z-index: 5;
   margin-top: 100px;
-  margin-left: 170px;
+  margin-left: 70px;
 }
 .comment-btn-1 {
   display: inline-block;
@@ -1232,7 +1241,7 @@ a {
   right: 0;
   z-index: 5;
   margin-top: 100px;
-  margin-right: 170px;
+  margin-right: 60px;
 }
 .statement {
   display: none;
@@ -1282,6 +1291,9 @@ a {
 }
 .form-group {
   margin-bottom: 20px;
+}
+.mb {
+  margin-bottom: 30px;
 }
 input[type="submit"] {
   background-color: #a20522;

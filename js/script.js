@@ -16,34 +16,84 @@ var nav1 = document.getElementById('fullarticle-nav');
 
 
 
+
+
 // Testimonial Slides
 function reset(){
-    for( var i = 0; i < comment.length; i++)
-     comment[i].style.display = 'none'
+  for( var i = 0; i < comment.length; i++)
+   comment[i].style.display = 'none'
+}
+function display0() {
+setTimeout(function display0(){
+  reset();
+  comment[0].style.display = 'block';
+},0)
+setTimeout(function displayPrev(){
+  reset()
+  comment[1].style.display = 'block';
+ 
+},6000)
+setTimeout(function displayNext(){
+  reset()
+  comment[2].style.display = 'block';
+  
+},12000)
+setTimeout(function displayNext(){
+  reset()
+  comment[3].style.display = 'block';
+  
+},18000)
+setTimeout(function displayNext(){
+  reset()
+  comment[4].style.display = 'block';
+ 
+},24000)
+setTimeout(function displayNext(){
+  display0()
+},30000)
+}
+caretLeft.addEventListener('click', function (){
+  if(current === 0){
+    current = comment.length;
   }
-  function display0(){
-    reset();
-    comment[0].style.display = 'block';
+  displayPrev()
+})
+caretRight.addEventListener('click', function (){
+  if(current === comment.length - 1){
+    current = -1
   }
-  function displayPrev(){
-    reset()
-    comment[current - 1].style.display = 'block';
-    current-- 
-  }
-  function displayNext(){
-    reset()
-    comment[current + 1].style.display = 'block';
-    current++
-  }
-  caretLeft.addEventListener('click', function(){
-    if(current === 0){
-      current = comment.length;
-    }
-    displayPrev()
-  })
-  caretRight.addEventListener('click', function(){
-    if(current === comment.length - 1){
-      current = -1
-    }
-    displayNext()
-  });
+  displayNext()
+});
+
+
+// // Testimonial Slides
+// function reset(){
+//     for( var i = 0; i < comment.length; i++)
+//      comment[i].style.display = 'none'
+//   }
+//   setTimeout(function display0(){
+//     reset();
+//     comment[0].style.display = 'block';
+//   },0)
+//   setTimeout(function displayPrev(){
+//     reset()
+//     comment[current - 1].style.display = 'block';
+//     current-- 
+//   },1000)
+//   setTimeout(function displayNext(){
+//     reset()
+//     comment[current + 1].style.display = 'block';
+//     current++
+//   },2000)
+//   caretLeft.addEventListener('click', function(){
+//     if(current === 0){
+//       current = comment.length;
+//     }
+//     displayPrev()
+//   })
+//   caretRight.addEventListener('click', function(){
+//     if(current === comment.length - 1){
+//       current = -1
+//     }
+//     displayNext()
+//   });

@@ -90,12 +90,12 @@ nav a:hover {
     height: 70px;
   }
   to {
-    height: 80%;
+    height: 100%;
   }
 }
 @keyframes navClosed {
   from {
-    height: 80%;
+    height: 100%;
   }
   to {
     height: 70px;
@@ -307,10 +307,50 @@ a {
   background-attachment: fixed;
   position: relative;
 }
+.bg-landing-6 {
+  width: 100%;
+  height: 700px;
+  background-image: url(../images/7.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
 .bg-landing-5 {
   width: 100%;
   height: 300px;
   background-image: url(../images/university.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.bg-landing-7 {
+  width: 100%;
+  height: 700px;
+  background-image: url(../images/apply.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.bg-landing-8 {
+  width: 100%;
+  height: 700px;
+  background-image: url(../images/faqs.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.bg-landing-9 {
+  width: 100%;
+  height: 700px;
+  background-image: url(../images/partners.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.bg-landing-10 {
+  width: 100%;
+  height: 700px;
+  background-image: url(../images/services.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -331,7 +371,7 @@ a {
   width: 100%;
   height: 100%;
   position: relative;
-  background-color: rgba(72, 131, 162, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .white {
   color: white;
@@ -342,6 +382,12 @@ a {
 .img-container-testimonials {
   width: 200px;
   height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.img-admin {
+  width: 400px;
+  height: 450px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -646,6 +692,9 @@ a {
   .xs-down-30 {
     margin-top: 30%;
   }
+  .xs-down-35 {
+    margin-top: 35%;
+  }
   .xs-down-50 {
     margin-top: 50%;
   }
@@ -704,8 +753,8 @@ a {
     height: auto;
   }
   .img-container-3 {
-    width: 150px !important;
-    height: 100px !important;
+    width: 200px !important;
+    height: auto;
   }
   .bg-landing {
     height: 300px !important;
@@ -723,7 +772,7 @@ a {
     background-image: url(../images/congrats.jpg);
   }
   .bg-landing-3 {
-    height: 500px !important;
+    height: 530px !important;
     background-attachment: scroll;
     background-image: url(../images/congrats.jpg);
   }
@@ -737,9 +786,40 @@ a {
     background-attachment: scroll;
     background-image: url(../images/university.jpg);
   }
+  .bg-landing-6 {
+    height: 300px !important;
+    background-attachment: scroll;
+    background-image: url(../images/7.jpg);
+  }
+  .bg-landing-7 {
+    height: 300px !important;
+    background-attachment: scroll;
+    background-image: url(../images/apply.jpg);
+  }
+  .bg-landing-8 {
+    height: 300px !important;
+    background-attachment: scroll;
+    background-image: url(../images/faqs.jpg);
+  }
+  .bg-landing-9 {
+    height: 300px !important;
+    background-attachment: scroll;
+    background-image: url(../images/partners.jpg);
+  }
+  .bg-landing-10 {
+    height: 300px !important;
+    background-attachment: scroll;
+    background-image: url(../images/services.jpg);
+  }
   .img-container-testimonials {
-    width: 120px !important;
-    height: 120px !important;
+    width: 170px !important;
+    height: 170px !important;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .img-admin {
+    width: 300px !important;
+    height: 300px !important;
     border-radius: 50%;
     overflow: hidden;
   }
@@ -995,6 +1075,31 @@ a {
     height: 500px !important;
     background-attachment: scroll;
     background-image: url(../images/university.jpg);
+  }
+  .bg-landing-6 {
+    height: 500px !important;
+    background-attachment: scroll;
+    background-image: url(../images/7.jpg);
+  }
+  .bg-landing-7 {
+    height: 500px !important;
+    background-attachment: scroll;
+    background-image: url(../images/apply.jpg);
+  }
+  .bg-landing-8 {
+    height: 500px !important;
+    background-attachment: scroll;
+    background-image: url(../images/faqs.jpg);
+  }
+  .bg-landing-9 {
+    height: 500px !important;
+    background-attachment: scroll;
+    background-image: url(../images/partners.jpg);
+  }
+  .bg-landing-10 {
+    height: 500px !important;
+    background-attachment: scroll;
+    background-image: url(../images/services.jpg);
   }
   .whatsapp-contact {
     position: fixed;

@@ -326,7 +326,7 @@ a {
 .bg-landing-7 {
   width: 100%;
   height: 700px;
-  background-image: url(../images/apply.jpg);
+  background-image: url(../images/shoot.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -334,7 +334,7 @@ a {
 .bg-landing-8 {
   width: 100%;
   height: 700px;
-  background-image: url(../images/faqs.jpg);
+  background-image: url(../images/quest.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -342,7 +342,7 @@ a {
 .bg-landing-9 {
   width: 100%;
   height: 700px;
-  background-image: url(../images/partners.jpg);
+  background-image: url(../images/support.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -350,7 +350,7 @@ a {
 .bg-landing-10 {
   width: 100%;
   height: 700px;
-  background-image: url(../images/services.jpg);
+  background-image: url(../images/versed.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -794,22 +794,22 @@ a {
   .bg-landing-7 {
     height: 300px !important;
     background-attachment: scroll;
-    background-image: url(../images/apply.jpg);
+    background-image: url(../images/shoot.jpg);
   }
   .bg-landing-8 {
     height: 300px !important;
     background-attachment: scroll;
-    background-image: url(../images/faqs.jpg);
+    background-image: url(../images/quest.jpg);
   }
   .bg-landing-9 {
     height: 300px !important;
     background-attachment: scroll;
-    background-image: url(../images/partners.jpg);
+    background-image: url(../images/support.jpg);
   }
   .bg-landing-10 {
     height: 300px !important;
     background-attachment: scroll;
-    background-image: url(../images/services.jpg);
+    background-image: url(../images/versed.jpg);
   }
   .img-container-testimonials {
     width: 170px !important;
@@ -1084,22 +1084,22 @@ a {
   .bg-landing-7 {
     height: 500px !important;
     background-attachment: scroll;
-    background-image: url(../images/apply.jpg);
+    background-image: url(../images/shoot.jpg);
   }
   .bg-landing-8 {
     height: 500px !important;
     background-attachment: scroll;
-    background-image: url(../images/faqs.jpg);
+    background-image: url(../images/quest.jpg);
   }
   .bg-landing-9 {
     height: 500px !important;
     background-attachment: scroll;
-    background-image: url(../images/partners.jpg);
+    background-image: url(../images/support.jpg);
   }
   .bg-landing-10 {
     height: 500px !important;
     background-attachment: scroll;
-    background-image: url(../images/services.jpg);
+    background-image: url(../images/versed.jpg);
   }
   .whatsapp-contact {
     position: fixed;
